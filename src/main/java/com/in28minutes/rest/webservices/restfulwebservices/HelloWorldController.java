@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.*;
 //Tell Spring this is going to handle rest requests
 @RestController
 public class HelloWorldController {
-    //GET need to map the get request to the URI
-    //URI - /hello-world
-    //method- "Hello World"
+//    GET need to map the get request to the URI
+//    URI - /hello-world
+//    method- "Hello World"
 //    @RequestMapping(method= RequestMethod.GET, path = "/hello-world")
 
     @GetMapping(path = "/hello-world")
